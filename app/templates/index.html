@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+		<title>MyHome Dashboard</title>
+	</head>
+	<body>
+		<div id="outer">
+			<h1>MyHome Dashboard</h1>
+			<!-- Task 2: you can edit the Link text if you like! -->
+			{% if status=='on' %}
+			<a href="{{ url_for('off')}}" id="lightOff" class="button">Light Off</a>
+			{% else %}
+			<a href="{{ url_for('on')}}" id="lightOn" class="button">Light On</a>
+			{% endif %}
+		</div>
+	</body>
+</html>
+
+
+

@@ -1,0 +1,30 @@
+/* Task 2: Edit this code to make your buttons user-friendly */
+
+#outer {
+	text-align: center;
+	padding: 20px;
+}
+
+h1 {
+	font-family: helvetica, sans-serif;
+	font-size: 24px;
+	margin: 1em 0;
+}
+
+a.button {
+	display: block;
+	width: 100px;
+	height: 60px;
+	margin: 0 auto;
+	padding-top: 40px;
+	border: 1px solid rgb(10, 10, 200);
+}
+
+a#lightOff {
+	color: red;
+}
+
+a#lightOn {
+	color: green;
+}
+
