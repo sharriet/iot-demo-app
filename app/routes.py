@@ -29,3 +29,6 @@ def off():
     # Task 1b: put code here to turn light OFF
     GPIO.output(18,GPIO.LOW)
     return render_template('index.html', status='off')
+
+if __name__ == "__main__":
+    app.run()
